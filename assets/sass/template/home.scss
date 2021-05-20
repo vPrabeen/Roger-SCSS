@@ -1,0 +1,140 @@
+.firstsec{
+	padding:150px 0px;
+}
+.head-sec h2{
+	 font-family: $global-h1-font;
+	 font-weight: $font-weight-semibold;
+font-size: $global-h2-font-size;
+line-height: $global-h2-line-height;
+text-align: $text-align-center;
+color: $bg-blue;
+margin-bottom: 12px;	
+}
+.head-sec{margin-bottom: 34px;	}
+.head-sec h5{
+	  font-family: $global-h1-font;
+	  font-size: 18px;
+	 line-height: 24px;
+	  text-align: $text-align-center;
+	  color: $common-p-color;
+	  font-weight: $font-weight-semibold;
+	  letter-spacing:0.33px;
+}
+
+.pcontent{
+	max-width:780px;
+	margin:$margin-auto;
+	text-align: $text-align-center;
+	margin-bottom: 105px;	
+	p{
+		span{
+			font-weight: $font-weight-semibold;
+		}
+	}
+}
+
+.cardarea{
+	.card{
+		@include market-box;
+		.card-body{
+			 padding:$gradient-padding;
+		}
+
+		i{
+			color:#4DD6B0;
+			font-size: 30px;
+			margin-bottom: 15px;
+		}
+
+		p{
+		  @include p-text;
+
+		}
+
+	}
+
+}
+
+
+
+
+.second-sec{
+	padding:170px 0px 189px;
+	background:$dark-section-bg;
+	position:$position-relative;
+	&:after{
+		@include bg-after; 
+	}
+	.head-sec{margin-bottom: 124px; position: $position-relative; z-index: 1;}
+}
+
+
+
+.micro-bx{
+	text-align: $text-align-center; 
+	margin-bottom: 101px;
+  img{margin-bottom: 14px; width:17%;}
+	  figcaption{
+		font-size: $global-h3-font-size;
+	   line-height: $global-h3-line-height;
+	   font-weight: $global-h1-font-weight;
+	   text-align: $text-align-center;
+	   letter-spacing: $global-letter-spacing;
+	   color: $global-h3-color;
+	   margin-bottom: 14px;
+	}
+	p{ padding:0px 28px 44px;}
+
+   .btn-primary{padding:12px 24px;
+     &:hover{
+     	@include common-hover;
+     }
+   }
+}
+
+
+.thrdsec{
+	background: linear-gradient(115.26deg, #4DD6B0 -0.06%, #4D5BE5 106.1%) ; 
+	padding:65px 0px;
+	position: $position-relative;
+
+	&:after{
+		content:""; background:url('assets/images/interesbg.png')0 0 no-repeat; width:545px; height:330px; position: absolute; right:0; top:0px;
+	}
+
+	.intres-img{
+		position:$position-absolute;
+		top:-153px;
+		left:0;
+		width:40%;
+      
+      img{width:100%; }  
+	}
+
+	h2{
+		font-size: $global-h3-font-size;
+	   line-height: $global-h3-line-height;
+	   color:$body-background-color;
+	   font-size: $global-h2-font-size;
+	line-height: $global-h2-line-height;
+	margin-bottom: 14px;
+	}
+
+	p{
+		color:$body-background-color;
+		padding-bottom: 34px;
+		padding-right:100px;
+	}
+
+	.btn-secondary{
+		@include btn-secondary;
+	}
+}
+
+.whatsapp{
+	position:$position-fixed;
+	bottom: -60px;
+	right:24px;
+	z-index:$common-z-index;
+	cursor:pointer;
+}

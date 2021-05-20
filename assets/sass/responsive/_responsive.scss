@@ -1,0 +1,386 @@
+
+
+@media only screen and (max-width: 1800px) {
+	.banner{
+    padding:172px 0px 60px;
+		p{
+			padding-right:260px;
+		}
+	}
+}
+@media only screen and (max-width: 1600px) {
+	.banner{
+       p{
+       	padding-right: 92px;
+       }
+	}
+}
+@media only screen and (max-width: 1500px) {
+	.banner{
+		padding: 172px 0px 100px;
+       
+       
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.banner{
+       h1{
+       	font-size: 50px;
+        line-height: 57px;
+       }
+       p{
+       	font-size: 15px;
+       line-height: 26px;
+       }
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.banner{
+		background: linear-gradient(115.26deg, #4DD6B0 -0.06%, #4D5BE5 106.1%);
+		padding:160px 0px;
+		
+       h1{
+       	font-size: 50px;
+        line-height: 57px;
+        
+       }
+       p{
+       	font-size: 15px;
+       line-height: 26px;
+       padding-right:0px;
+       }
+       .banner-inner{
+       	width:70%;
+       	margin:0 auto;
+       	 .bannerimg{
+	       	text-align: center;
+          right:0;
+          left:0;
+          margin:$margin-auto;
+	         img{
+	         	width:100%;
+	         }
+	       }
+       }
+       .container-fluid{padding:0px 14px;}
+       .banner-text{text-align:center;}
+
+       .banr-mbl{display: block;}
+       .banr-desk{display: none;}
+	}
+
+	.firstsec {
+     padding: 90px 0px;
+    
+    .cardarea{ 
+    	.card{
+    		.card-body {
+			    padding: 34px 22px 34px;
+			 }
+    	}
+     }
+     .micro-bx {
+     	p{
+     		font-size: 14px;
+     		padding: 0px 7px 34px;
+     	}
+     }
+
+     }  
+
+     .thrdsec  {
+
+     	h2{
+     		font-size: 37px;
+     	}
+
+     	.intres-img {
+   
+		    top: -110px;
+		    
+		    width: 47%;
+		}
+     &:after{
+         height: 356px;
+        background-size: 100% 100%;
+       }
+    }
+    .footer{
+    	.ms1{
+    		&:first-child{
+    		 margin-right:30px;	
+    		}
+    		
+    	}
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+	.banner{
+		
+		
+       h1{
+       	font-size: 36px;
+        line-height: 52px;
+       }
+       p{
+       	font-size: 13px;
+       line-height: 26px;
+       }
+       
+	}
+	.right-header{
+		ul{
+			li{
+				margin-right: 12px;
+				&:nth-child(2){
+					margin-right: 0px;
+				}
+				a.btn-primary{
+					padding:10px 15px; 
+					font-size: 12px;
+				}
+				a.login{
+					    font-size: 14px;
+					i{
+						margin-right: 4px;
+					}
+				}
+			}
+		}
+	}
+
+	.firstsec{
+		.cardarea{
+			.card{
+				.card-body{
+					    padding: 34px 12px 34px;
+				}
+				p{
+					font-size: 12px;
+					line-height: 24px;
+
+				}
+			}
+		}
+	}   
+	.head-sec{
+		h2{
+			font-size: 43px;
+            line-height: 42px;
+		}
+	}
+	.pcontent{margin-bottom: 55px;}
+	.micro-bx {
+		figcaption{
+			font-size: 18px;
+           line-height: 28px;
+		}
+		p{
+			padding: 0px 0px 44px;
+			font-size:12px;
+		}
+
+	}
+	.thrdsec{
+		text-align: center;
+    p{
+      padding-right: 0px;
+    }
+       .intres-img{
+			position:static;
+			margin:0 auto 25px;
+		}
+    &:after{
+      display:none;
+    }
+	}
+
+	.footer {
+		  text-align: center;
+		 .foot-upper {
+          padding: 60px 0px 60px;
+        }
+
+       [class^=col]{
+       	margin-bottom: 20px;
+       }
+       .foot-logarea{
+       	width:40%;
+       	margin:0 auto;
+        align-items: center;
+       }
+	}
+	
+    
+
+}
+@media only screen and (max-width: 767px) {
+.banner {
+
+	&:after{
+		 height: 127px;
+	}
+    
+   }
+
+   .second-sec {
+   	  padding:120px 0px 60px;
+	    &:after{
+			 height: 115px;
+		}
+
+    }
+    .thrdsec{
+    	p{
+    		padding-right: 0px;
+    	}
+    }
+    .micro-bx {
+    	margin-bottom: 40px;
+    }
+
+}
+@media only screen and (max-width: 639px) {
+   .header{
+   	padding:14px 0px;
+   	ul{
+   		li{
+   			margin-right: 3px;
+   			a.login{
+		   		font-size: 0px;
+		   		i{
+		   			font-size: 14px;
+		   		}
+		   	}
+
+		    a.btn-primary {
+			    padding: 4px 10px;
+			    font-size: 9px;
+			}
+   		}
+   	}
+   	#menu-button{font-size: 0px;
+
+   		.span-area{
+   			margin-right: 0px;
+   			padding-top: 3px;
+   		}
+   	}
+   	.logo{
+       img{
+       	width:80%;
+       }
+   	}
+   }
+
+   .banner{
+   	    padding: 112px 0px;
+        .banner-inner{
+        	width:100%;
+        }
+	   	h1{
+	   		font-size: 24px;
+	       line-height: 39px;
+	   	}
+	   	.button-group  {
+	   		text-align:center;
+	   		.btn-primary{
+	   			  margin-right: 0px;
+	   			  margin-bottom:20px;
+	   		}
+   
+        }
+        .btn{width:60%;}
+        &:after{
+        	height:68px;
+        }
+     }
+     .head-sec {
+     	h2{
+     		line-height:52px;
+     	}
+     	h5{
+     		 font-size: 15px;
+     	}
+    }
+    .second-sec{
+    	padding: 98px 0px 40px;
+    	&:after{
+    		height: 73px;
+    	}
+    	.head-sec{
+    		margin-bottom: 60px;
+    	}
+    }
+
+    p{
+    	font-size: 13px;
+    }
+
+    .footer {
+          .foot-upper{
+          	h2{
+		    		font-size: 40px;
+		          line-height: 54px;
+		    	}
+          }
+          .foot-logarea {
+             width: 55%;
+    	
+             }
+    }
+
+    .menu{
+           width:100%;
+           padding: 24px 23px 46px;
+           overflow-y: scroll;
+           .btn-primary {
+            right: -3px;
+           }
+           .menu-nav {
+           	ul{
+           		li{
+           			ul{
+           				left: 176px;
+           				li{
+           					a{
+           						font-size: 12px;
+           						margin-bottom:8px;
+           					}
+           				}
+           			}
+           			a{
+           				font-size: 20px;
+           				margin-bottom: 26px;
+           			}
+           		}
+           	}
+           }
+           .line{
+           	margin-top: 26px;
+            margin-bottom: 47px;
+           }
+           a.btn-secondary{
+           	margin-bottom: 39px;
+           }
+           #menu-close-button{
+           	 font-size:0px;
+           	 .span-area{
+           	 	margin-right:0px;
+           	 }
+           }
+    }
+
+    .thrdsec{
+      .intres-img {
+         width: 90%;
+        }
+
+    }
+    
+
+}

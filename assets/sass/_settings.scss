@@ -1,0 +1,201 @@
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; 
+     -moz-box-sizing: $box-model; 
+          box-sizing: $box-model;
+}
+@mixin appearance($appearance) {
+  -webkit-appearance:$appearance; 
+    -moz-appearance:$appearance;  
+    -o-appearance:$appearance; 
+    -ms-appearance:$appearance; 
+    appearance:$appearance; 
+}
+@mixin flex-display {
+  display:flex;
+  flex-wrap:nowrap;
+}
+@mixin common-btn{
+	background: $white-button;
+    box-shadow: $common-box-shadow;
+    border-radius: $common-border-radius;
+    font-family: $global-h1-font;
+    font-size: 16px;
+	line-height: 24px;
+    color: #8C90BF;
+    border:none;
+
+    
+}
+
+@mixin market-box{
+  background:$garedient-background;
+  border-radius:$gradient-border-radius;
+  
+  text-align:$text-align-center;
+  border:none;
+  width:100%;
+  margin-bottom: 34px;
+
+}
+
+@mixin p-text{
+ font-family: $global-font-family;
+	font-size: $global-font-size;
+	color: $global-p-color;
+	line-height: $global-p-line-height;
+	font-weight: $global-font-weight;
+	padding-bottom:$padding-bottom;
+
+}
+
+@mixin bg-after{
+ content:"";
+ position:$position-absolute;
+ width:100%;
+ height:213px;
+ left:0;
+ top:-29px;
+ background:url('assets/images/online-aftrbg.png')0 0 no-repeat;
+ background-size:100% 100%;
+}
+
+@mixin btn-secondary{
+	    background: $background-green;
+		box-shadow: 0px 4px 0px rgba(45, 54, 145, 0.1);
+		border-radius: $common-border-radius;
+		font-family: $global-h1-font;
+		font-size: $global-font-size;
+		line-height: 24px;
+		font-weight:$font-weight-semibold;
+		color: #2D3691;
+		border: none;
+		display: inline-flex;
+		align-items: center;
+		vertical-align: middle;
+		justify-content: center;
+		padding:12px 24px;
+		word-spacing:1px;
+		&:hover {
+			background: #2D3691;
+			color: $background-green;
+		}
+
+} 
+
+@mixin footerh2{
+  font-size: 64px;
+ line-height: 72px;
+ text-align: $text-align-center;
+ color: $background-green;
+ margin-bottom: 34px;
+ font-weight: $font-weight-semibold;
+ font-family: $global-h1-font;
+}
+
+@mixin btn-primary{
+	@include common-btn;
+	padding:12px 34px;
+	font-size:$global-font-size ;
+	line-height: 24px;
+	color:#4D5BE5;
+	font-weight:600 !important;
+
+}
+
+@mixin common-hover{
+	background: #4DD6B0;
+	color: #2D3691;
+}
+
+$garedient-background:linear-gradient(90deg, #DFF7E8 0%, #CEEEF9 100%);
+$gradient-border-radius:12px;
+$gradient-padding:34px 49px 34px;
+$padding-bottom:0px;
+$font-weight-semibold:600;
+
+$box-model:border-box;
+
+$global-font-family: Poppins, sans-serif;
+$global-font-color: #6C7A89;
+$global-line-height: 1.5;
+$global-font-weight: 400;
+$global-font-size: 16px;
+$global-transition:all .5s;
+$body-background-color: #fff;
+$global-letter-spacing:0.03em;
+
+$global-p-color: #494D5A;
+$global-p-line-height:28px;
+
+$global-h1-font: 'gibsonregular';
+$global-h1-font-weight: 500;
+$global-h1-font-size: 64px;
+$global-h1-line-height: 72px;
+$global-h1-color: #fff;
+
+$global-h2-font: gibsonregular;
+$global-h2-font-weight: 500;
+$global-h2-font-size: 48px;
+$global-h2-line-height: 48px;
+$global-h2-color: #2D3691;
+
+$global-h3-font: gibsonregular;
+$global-h3-font-weight: 400;
+$global-h3-font-size: 24px;
+$global-h3-line-height: 32px;
+$global-h3-color: #1E222B;
+
+$common-p-color: #494D5A;;
+
+$bg-blue:#2D3691;
+$text-align-center:center;
+
+$global-paragraph-font: $global-font-family;
+$global-paragraph-font-weight: $global-font-weight;
+$global-paragraph-font-size: $global-font-size;
+$global-paragraph-line-height: $global-line-height;
+$global-paragraph-color: #494D5A;
+
+$white-button:#fff;
+$common-border-radius:24px;
+$common-box-shadow:0px 4px 0px rgba(45, 54, 145, 0.1);
+
+$vertical-align-middle:middle;
+
+$position-fixed:fixed;
+$position-absolute:absolute;
+$position-relative:relative;
+$position-static:static;
+$common-z-index:2;
+$margin-auto:0 auto;
+
+$display-flex:flex;
+$display-inline-flex:inline-flex;
+$flex-wrap:wrap;
+$display-block:block;
+$display-inline-block:inline-block;
+$display-none:none;
+$align-self-center:center;
+$align-items-center:center;
+$justify-content-between:space-between;
+$justify-content-center:center;
+$justify-content-start:flex-start;
+$justify-content-end:flex-end;
+$common-padding:14px;
+$common-button-padding:12px 24px;
+
+$list-style-none:none;
+$margin-none:0px;
+$padding-none:0px;
+$background-green:#4DD6B0;
+$width-full:100%;
+$height-full:100%;
+
+
+$dark-section-bg:#F5F7FA;
+$footer-bg:#2D3691;
+
+
+
+
+
